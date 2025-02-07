@@ -184,11 +184,11 @@ const preloader = document.querySelector("#preloader");
 
 // Image paths to preload
 const imagePaths = [
-  "../assets/image/Banners/banner1.webp",
-  "../assets/image/Banners/banner2.webp",
-  "../assets/image/Banners/banner3.webp",
-  "../assets/image/Banners/banner4.webp",
-  "../assets/image/Banners/banner5.webp",
+  "./assets/image/Banners/banner1.webp",
+  "./assets/image/Banners/banner2.webp",
+  "./assets/image/Banners/banner3.webp",
+  "./assets/image/Banners/banner4.webp",
+  "./assets/image/Banners/banner5.webp",
 ];
 
 // Preload Images with Promises
