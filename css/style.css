@@ -1109,7 +1109,90 @@ Start of banner section [*3]
   background-position: center center;
   animation: backgroundSlideshow 15s infinite;
   -webkit-animation: backgroundSlideshow 15s infinite;
+  /* animation: backgroundSlideshow 15s infinite; */
+  /* -webkit-animation: backgroundSlideshow 15s infinite; */
 }
+
+.banner-image {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 400px;
+  width: 80%;
+  pointer-events: none;
+  opacity: 0%;
+  object-fit: cover;
+}
+
+#banner-image-1 {
+  animation: imageSwap1 15s infinite;
+}
+#banner-image-2 {
+  animation: imageSwap2 15s infinite;
+}
+#banner-image-3 {
+  animation: imageSwap3 15s infinite;
+}
+#banner-image-4 {
+  animation: imageSwap4 15s infinite;
+}
+#banner-image-5 {
+  animation: imageSwap5 15s infinite;
+}
+#banner-image-re {
+  animation: imageSwapRe 15s infinite;
+}
+
+@keyframes imageSwap1 {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+
+@keyframes imageSwap2 {
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@keyframes imageSwap3 {
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+}
+
+@keyframes imageSwap4 {
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+}
+
+@keyframes imageSwap5 {
+  80% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* @keyframes backgroundSlideshow {
 
 @keyframes backgroundSlideshow {
   0%,
@@ -1132,7 +1215,7 @@ Start of banner section [*3]
   80% {
     background-image: url(../assets/image/Banners/banner5.webp);
   }
-}
+}*/
 
 .banner-text-head {
   letter-spacing: 2px;
